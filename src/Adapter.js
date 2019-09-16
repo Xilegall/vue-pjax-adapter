@@ -82,7 +82,7 @@ class Plugin {
     }
 
     clickHandler(link) {
-        PjaxEventBus.$emit('pjax:send');
+        PjaxEventBus.$emit('pjax:start');
         return axios.get(link.href)
             .then(
                 response => {
