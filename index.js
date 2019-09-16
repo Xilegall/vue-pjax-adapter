@@ -1,3 +1,5 @@
-import Adapter from './src/Adapter';
+import pjaxAdapter from './src/Adapter';
+import { PjaxEventBus } from './src/PjaxEventBus';
 
-export default Adapter;
+export { PjaxEventBus };
+export { pjaxAdapter };
